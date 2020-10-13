@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="semesterproject1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/semesterproject1_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="semesterproject1/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="semesterproject1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.19" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="org.apache.tomcat:tomcat-coyote:7.0.22" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
